@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>AddBookServlet</servlet-name>
+        <servlet-class>com.library.AddBookServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddBookServlet</servlet-name>
+        <url-pattern>/AddBookServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
